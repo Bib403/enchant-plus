@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Auto Jump",
+    "description": "Automatically walk up 1–2 block height increments without the need to press jump.",
+    "apply_on": "Boots armor",
+    "incompatibility": "None",
+    "max_level": 2,
+    "rarity": "common"
+  },
+  {
+    "name": "Curse of Blindness",
+    "description": "Inflicts the Blindness status effect on the player while worn.",
+    "apply_on": "Any armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Glowing",
+    "description": "Grants the wearer a permanent glowing outline, making them visible through walls.",
+    "apply_on": "Any armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Mining Fatigue",
+    "description": "Drastically slows down mining speed when the tool is held.",
+    "apply_on": "Any Axe, Pickaxe, Shovel",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Poison",
+    "description": "Periodically poisons the wearer, slowly draining health.",
+    "apply_on": "Any armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Slowness",
+    "description": "Permanently reduces movement speed while this armor is equipped.",
+    "apply_on": "Any armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Sound",
+    "description": "Emits distracting or eerie sounds periodically while the sword is in use.",
+    "apply_on": "Any sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Curse of Unluck",
+    "description": "Permanently lowers the player's Luck attribute, affecting loot quality.",
+    "apply_on": "Any armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "curse"
+  },
+  {
+    "name": "Ally Item Display",
+    "description": "Summons an Allay specifically for displaying and holding items within an item frame.",
+    "apply_on": "Item frame",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "rare"
+  },
+  {
+    "name": "Loyalty Speed",
+    "description": "Enhances the speed at which the Trident returns to its owner after being thrown.",
+    "apply_on": "Trident",
+    "incompatibility": "None",
+    "max_level": 3,
+    "rarity": "rare"
+  },
+  {
+    "name": "Water Breathing",
+    "description": "Occasionally grants the player the Water Breathing effect when submerged.",
+    "apply_on": "Helmet armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "rare"
+  },
+  {
+    "name": "Aura Blue",
+    "description": "Displays a circular Blue particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura Green",
+    "description": "Displays a circular Green particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura Orange",
+    "description": "Displays a circular Orange particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura Purple",
+    "description": "Displays a circular Purple particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura Red",
+    "description": "Displays a circular Red particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura RGB",
+    "description": "Displays a cycling RGB circular particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Aura Yellow",
+    "description": "Displays a circular Yellow particle effect around the player's feet while wearing boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "Other auras",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Flame Sword",
+    "description": "Creates a fiery ring of particles around an entity when struck by this sword.",
+    "apply_on": "Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "particle"
+  },
+  {
+    "name": "Fire Resistance",
+    "description": "Provides the player with complete immunity to fire and lava damage while worn.",
+    "apply_on": "Leggings armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "epic"
+  },
+  {
+    "name": "Head Cosmetic",
+    "description": "Right-click the ground to wear various decorative blocks (Glass, Banners, etc.) as headwear.",
+    "apply_on": "Dispenser, Dropper, Vault, Observer, Spore blossom, mangrove roots, Any lantern, Flowering azalea, Azalea, Bone, End rod, Lightning rod, Amethyst cluster, Scaffolding, Honey block, Slime block, Spyglass, Any Glass, Any leaves, Any copper grate, Any Color Banner",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "epic"
+  },
+  {
+    "name": "Invisible Item Frame",
+    "description": "Renders the item frame completely invisible, leaving only the displayed item visible.",
+    "apply_on": "Item frame",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "epic"
+  },
+  {
+    "name": "Night Vision",
+    "description": "Grants the player permanent Night Vision while the helmet is equipped.",
+    "apply_on": "Helmet armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "epic"
+  },
+  {
+    "name": "Baby Mode",
+    "description": "Transforms the player into baby mode, significantly shrinking their size while active.",
+    "apply_on": "Turtle Helmet",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Copper Generator",
+    "description": "Summons a magical fox that produces Copper when near a Copper block.",
+    "apply_on": "Copper block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Jump Boost",
+    "description": "Permanently increases jump height while wearing these boots (up to Level 3).",
+    "apply_on": "Boots armor",
+    "incompatibility": "None",
+    "max_level": 3,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Livestock Slayer",
+    "description": "Deals significantly increased damage to livestock mobs (Cow, Sheep, Pig, Chicken).",
+    "apply_on": "Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Pet Glow",
+    "description": "Applies a permanent glowing effect to your pets (Horses/Wolves).",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Pet Jump",
+    "description": "Increases the jump height of your pets when equipped with armor.",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Poison Aspect",
+    "description": "Inflicts a Poison status effect on enemies when struck; incompatible with Fire Aspect.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Fire Aspect",
+    "max_level": 1,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Speed Boost",
+    "description": "Provides a permanent increase to the player's movement speed (up to Level 3).",
+    "apply_on": "Boots Armor",
+    "incompatibility": "None",
+    "max_level": 3,
+    "rarity": "ultimate"
+  },
+  {
+    "name": "Auto Beetroot Planter",
+    "description": "Automatically replants beetroot seeds from your inventory while walking over tilled farmland.",
+    "apply_on": "Any Hoe",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Auto Wheat Planter",
+    "description": "Automatically replants wheat seeds from your inventory while walking over tilled farmland.",
+    "apply_on": "Any Hoe",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Coal Generator",
+    "description": "Summons a magical fox that produces Coal when near a Coal block.",
+    "apply_on": "Coal block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Guardian Slayer",
+    "description": "Deals massive bonus damage to Guardians and Elder Guardians.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Haste Boost",
+    "description": "Grants the player the Haste effect for faster mining and swinging (up to Level 3).",
+    "apply_on": "Any Pickaxe, Axe, Shovel",
+    "incompatibility": "None",
+    "max_level": 3,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Pet Speed",
+    "description": "Significantly increases the movement speed of your Horse or Wolf.",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Redstone Generator",
+    "description": "Summons a magical fox that produces Redstone when near a Redstone block.",
+    "apply_on": "Redstone block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Slime Slayer",
+    "description": "Deals massive bonus damage to Slimes and Magma Cubes.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "legendary"
+  },
+  {
+    "name": "Auto Carrot Planter",
+    "description": "Automatically replants carrots from your inventory while walking over tilled farmland.",
+    "apply_on": "Any Hoe",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Auto Potato Planter",
+    "description": "Automatically replants potatoes from your inventory while walking over tilled farmland.",
+    "apply_on": "Any Hoe",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Cresselia",
+    "description": "Increases the damage dealt by your sword during the daytime hours.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Darkrai, Torrent",
+    "max_level": 3,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Darkrai",
+    "description": "Increases the damage dealt by your sword during the nighttime hours.",
+    "apply_on": "Sword",
+    "incompatibility": "Cresselia, Torrent",
+    "max_level": 3,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Dolphins Grace",
+    "description": "Permanently grants the player the Dolphin's Grace swimming speed boost while wearing these boots.",
+    "apply_on": "Boots armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Fangs Sword",
+    "description": "Summons Evoker-style fangs from the ground to bite enemies upon a successful hit.",
+    "apply_on": "Any Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Infinite Milk Bucket",
+    "description": "Provides an endless supply of Milk that never runs out.",
+    "apply_on": "Nether star",
+    "incompatibility": "Infinite Lava Bucket, Infinite Water Bucket",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Lapis Generator",
+    "description": "Summons a magical fox that produces Lapis Lazuli when near a Lapis block.",
+    "apply_on": "Lapis block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Pet Resistance",
+    "description": "Reduces the amount of damage your pet takes from all sources.",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Skeleton Slayer",
+    "description": "Deals massive bonus damage specifically to Skeletons and Strays.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Spider Slayer",
+    "description": "Deals massive bonus damage to Spiders and Cave Spiders.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Super Firework",
+    "description": "Enhances firework rockets for a more powerful.",
+    "apply_on": "Firework rocket",
+    "incompatibility": "None",
+    "max_level": 2,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Torrent",
+    "description": "Boosts the damage dealt by your weapon specifically when it is raining.",
+    "apply_on": "Sword",
+    "incompatibility": "Cresselia, Darkrai",
+    "max_level": 3,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Upgrade Frost Walker",
+    "description": "An advanced version of Frost Walker with improved ice formation and longevity.",
+    "apply_on": "Boots",
+    "incompatibility": "Frost Walker",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Water Mining",
+    "description": "Allows the player to mine blocks underwater at normal land-based speeds.",
+    "apply_on": "Any Axe, Pickaxe, Shovel",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Zombie Slayer",
+    "description": "Deals massive bonus damage to Zombies, Husks, and Drowned.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "mythical"
+  },
+  {
+    "name": "Advance Efficiency",
+    "description": "A high-tier efficiency upgrade that surpasses the standard Level 5 speed.",
+    "apply_on": "Any Axe, Pickaxe, Shovel",
+    "incompatibility": "Efficiency",
+    "max_level": 3,
+    "rarity": "special"
+  },
+  {
+    "name": "Advance Riptide",
+    "description": "An enhanced version of Riptide for more powerful aquatic launches.",
+    "apply_on": "Trident",
+    "incompatibility": "Riptide",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Anti Gravity",
+    "description": "Player takes no fall damage.",
+    "apply_on": "Boots Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Armor Plus",
+    "description": "Increases the overall defensive value and toughness of your chestplate.",
+    "apply_on": "Chestplate",
+    "incompatibility": "None",
+    "max_level": 2,
+    "rarity": "special"
+  },
+  {
+    "name": "Auto Farmland",
+    "description": "Automatically tills dirt or grass into farmland when using the hoe.",
+    "apply_on": "Any Hoe",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Burning Time",
+    "description": "Reduces the amount of time the player remains on fire after moving out of a flame.",
+    "apply_on": "Boots Armor",
+    "incompatibility": "None",
+    "max_level": 5,
+    "rarity": "special"
+  },
+  {
+    "name": "Compact Totem",
+    "description": "Compresses the energy of Totems, allowing them to be stack more on inventory.",
+    "apply_on": "Totem",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Ender Slayer",
+    "description": "Deals massive bonus damage to Endermen, Shulkers, and Endermites.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "special"
+  },
+  {
+    "name": "Equipment Drops Bonus",
+    "description": "Increases the chance for mobs to drop the armor or weapons they are currently equipped with.",
+    "apply_on": "Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Fast Sweeping",
+    "description": "Reduces the cooldown of the sword's sweep attack for faster area damage.",
+    "apply_on": "Sword",
+    "incompatibility": "Sweeping",
+    "max_level": 2,
+    "rarity": "special"
+  },
+  {
+    "name": "Gold Generator",
+    "description": "Summons a magical fox that produces Gold when near a Gold block.",
+    "apply_on": "Gold block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Illager Slayer",
+    "description": "Deals massive bonus damage to Vindicators, Pillagers, and Evokers.",
+    "apply_on": "Amy Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "special"
+  },
+  {
+    "name": "Infinite Lava Bucket",
+    "description": "Provides an endless supply of Lava that never runs out.",
+    "apply_on": "Nether star",
+    "incompatibility": "Infinite Milk Bucket, Infinite Water Bucket",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Infinite Water Bucket",
+    "description": "Provides an endless supply of Water that never runs out.",
+    "apply_on": "Nether star",
+    "incompatibility": "Infinite Milk Bucket, Infinite Lava Bucket",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Iron Generator",
+    "description": "Summons a magical fox that produces Iron when near an Iron block.",
+    "apply_on": "Iron block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Lightning Sword",
+    "description": "Adds a significant chance to strike your target with a bolt of lightning upon impact.",
+    "apply_on": "Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Lucky",
+    "description": "Boosts the player's Luck stat specifically for fishing, resulting in better loot.",
+    "apply_on": "Fishing rod",
+    "incompatibility": "None",
+    "max_level": 3,
+    "rarity": "special"
+  },
+  {
+    "name": "Mob Egg Grinder",
+    "description": "Increases the chance for mobs to drop their respective Spawn Eggs when killed.",
+    "apply_on": "Any Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Pet Max Health",
+    "description": "Significantly boosts the maximum HP pool of your pets.",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Saturation",
+    "description": "Gradually restores the player's hunger bar over time, reducing the need for food.",
+    "apply_on": "Helmet",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Self Repair",
+    "description": "Allows tools to slowly regenerate their own durability; incompatible with Mending.",
+    "apply_on": "Tools",
+    "incompatibility": "Mending",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Upgrade Lure",
+    "description": "A powerful fishing upgrade that drastically reduces the time needed for a bite (Level 5).",
+    "apply_on": "Fishing rod",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Upgrade Multishot",
+    "description": "An enhanced multishot that fires even more projectiles or with greater precision.",
+    "apply_on": "Bow",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Upgrade Power",
+    "description": "A superior bow upgrade that deals damage beyond the standard Power V limit.",
+    "apply_on": "Bow",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "special"
+  },
+  {
+    "name": "Advance Sharpness",
+    "description": "A master-tier sharpness upgrade that increases damage beyond standard levels.",
+    "apply_on": "Sword",
+    "incompatibility": "Sharpness, Smite, Fast-Sweeping",
+    "max_level": 3,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Apple of Midas",
+    "description": "Grants a chance to harvest Golden Apples directly from leaf blocks using Shears.",
+    "apply_on": "Shears",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Auto Craft",
+    "description": "Automatically crafts items from materials in your inventory when equipped.",
+    "apply_on": "Nether star",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Auto Smelt",
+    "description": "Automatically smelts ores into ingots and sand into glass as they are mined.",
+    "apply_on": "Any Pickaxe, Shovel",
+    "incompatibility": "Silk Touch",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Break Reach",
+    "description": "Increases the maximum distance from which you can reach and break blocks.",
+    "apply_on": "Any Pickaxe, Axe, Shovel, Hoe",
+    "incompatibility": "None",
+    "max_level": 2,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Chaos Attacker",
+    "description": "Has a chance to inflict a random negative status effect or curse on hit entities.",
+    "apply_on": "Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Chicken Generator",
+    "description": "Summons a magical fox that produces Chicken-related resources.",
+    "apply_on": "Chicken",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Diamond Generator",
+    "description": "Summons a magical fox that produces Diamonds when near a Diamond block.",
+    "apply_on": "Diamond block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Emerald Generator",
+    "description": "Summons a magical fox that produces Emeralds when near an Emerald block.",
+    "apply_on": "Emerald block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Ender Dragon Slayer",
+    "description": "Deals extreme bonus damage specifically to the Ender Dragon.",
+    "apply_on": "Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Exp Mastery",
+    "description": "Grants a passive stream of experience points to the player over time.",
+    "apply_on": "Boots",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Glass Breaker",
+    "description": "Specialized tool enchantment that allows for the instant and safe harvesting of glass.",
+    "apply_on": "Shears",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Inquisitive",
+    "description": "Increases the amount of experience points dropped by mobs upon death.",
+    "apply_on": "Any sword",
+    "incompatibility": "None",
+    "max_level": 5,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Item Magnet",
+    "description": "Automatically pulls nearby dropped items directly into the player's inventory.",
+    "apply_on": "Boots",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Max Health",
+    "description": "Permanently increases the player's maximum health pool while wearing leggings.",
+    "apply_on": "Leggings",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Mining Experience Bonus",
+    "description": "Grants additional experience points whenever an ore block is successfully mined.",
+    "apply_on": "Pickaxe",
+    "incompatibility": "None",
+    "max_level": 5,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Netherite Generator",
+    "description": "Summons a magical fox that produces Netherite when near a Netherite block.",
+    "apply_on": "Netherite block",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Pet Regeneration",
+    "description": "Allows your pets to slowly regenerate health over time while wearing armor.",
+    "apply_on": "Any Horse Armor, Any Nautilus Armor, Wolf Armor",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Regeneration Boots",
+    "description": "Grants the player the Regeneration status effect while wearing these boots.",
+    "apply_on": "Boots",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Spawner Breaker",
+    "description": "A specialized pickaxe enchantment that allows for the breaking and collection of Monster Spawners.",
+    "apply_on": "Any Pickaxe",
+    "incompatibility": "Silk Touch",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Strength Gift",
+    "description": "Grants the player a temporary Strength buff upon hitting an entity.",
+    "apply_on": "Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Super Knockback",
+    "description": "Sends enemies flying a massive distance backward when struck.",
+    "apply_on": "Sword",
+    "incompatibility": "Knockback",
+    "max_level": 3,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Unbreakable",
+    "description": "Makes the tool completely immune to durability damage.",
+    "apply_on": "Tools",
+    "incompatibility": "Unbreaking, Mending",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Upgrade Fortune",
+    "description": "Enhances the Fortune enchantment for even greater resource yields.",
+    "apply_on": "Any Pickaxe",
+    "incompatibility": "Silk Touch",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Upgrade Looting",
+    "description": "Enhances the Looting enchantment for even greater mob drop yields.",
+    "apply_on": "Any Sword",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Warden Slayer",
+    "description": "Deals extreme bonus damage specifically to the Warden.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Wither Slayer",
+    "description": "Deals extreme bonus damage specifically to the Wither Boss.",
+    "apply_on": "Any Sword",
+    "incompatibility": "Any other slayers",
+    "max_level": 5,
+    "rarity": "exclusive"
+  },
+  {
+    "name": "Random Enchant",
+    "description": "A special attribute applied to random books, this enchantment is normally unobtainable.",
+    "apply_on": "None",
+    "incompatibility": "None",
+    "max_level": 1,
+    "rarity": "random"
+  }
+]
